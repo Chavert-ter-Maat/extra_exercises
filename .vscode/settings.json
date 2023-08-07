@@ -1,5 +1,11 @@
 {
 	"files.associations": {
-		"stdio.h": "c"
+		"stdio.h": "c",
+		"string.h": "c",
+		"sstream": "c",
+		"__locale": "c",
+		"__string": "c",
+		"string": "c",
+		"string_view": "c"
 	}
 }

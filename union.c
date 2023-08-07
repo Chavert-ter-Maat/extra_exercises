@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   union2.c                                           :+:    :+:            */
+/*   union.c                                            :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: cter-maa <cter-maa@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2023/03/13 09:31:23 by cter-maa      #+#    #+#                 */
-/*   Updated: 2023/06/29 09:47:40 by cter-maa      ########   odam.nl         */
+/*   Updated: 2023/07/07 11:45:51 by cter-maa      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 #include <stdio.h>
 
 
-int		ft_verif_char(char *str, char c, int index)
+int		ft_verif_char(char *str, char c, int n)
 {
 	int		index;
 
 	index = 0;
-	while (index < index)
+	while (index < n)
 	{
 		if (str[index] == c)
 			return (0);
