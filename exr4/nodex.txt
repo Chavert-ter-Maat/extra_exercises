@@ -1,0 +1,3 @@
+total nodes
+max depth
+search node (number)
